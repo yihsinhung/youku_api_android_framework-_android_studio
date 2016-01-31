@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/gridviewItemDimension" >
+
+    <com.android.intro.custorm.imageview.NetworkedCacheableImageView
+        android:id="@+id/nciv_pug"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_loading"
+         />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="8dp"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_margin="0dp" >
+
+	<GridView 
+		android:id="@+id/moivesGridView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:horizontalSpacing="2dp"
+		android:verticalSpacing="2dp"
+    	android:numColumns="2"
+    	android:layout_margin="1dp"  />
+	
+	<ProgressBar android:id="@+id/ajax_loading"
+	      android:layout_width="wrap_content" 
+	      android:layout_height="wrap_content"    
+	      android:layout_gravity="center_vertical|center_horizontal"
+	      android:indeterminateDrawable="@drawable/loading"
+          android:indeterminateOnly="true"
+          android:indeterminateBehavior="repeat" 
+	      
+	      
+	      />
+
+</FrameLayout> 
